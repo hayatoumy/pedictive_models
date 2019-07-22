@@ -1,0 +1,20 @@
+In the absence of more details or a data dictionary, I’m going to assume ‘ideo’ means ideology, without full understanding for what it represents. 
+Also, under same conditions, I’m assuming negative class (target = 0) for opposing the ballot, and positive class (target = 1) for approving it. Analysis would be reversed if it’s the other way around. 
+
+First scan showed strong correlation between ideology and opposing or approving the ballot; so is with political party affiliation. Not surprisingly, there’s a strong correlation between ideology and party affiliation. Looks like most Democrats have ideology =1 and most Republicans have ideology = -1, with some from both parties sharing ideology = 0. 
+
+People holding ideology 1 tend to oppose the ballot, people holding ideology -1 tend to approve it. 
+Democrats tend to oppose the ballot, while Republicans tend to approve it. 
+At this point, I’m suspecting the ballot about restricting access to women’s health care is related to banning abortion. 
+
+Employment has no significant effect on how people voted, neither does race, although people of black race tend to oppose the ballot more, less noticeable for the Latins, and whites. 
+
+Gender doesn’t have a significant effect either, although more women than men tend to oppose the ballot, surprisingly. 
+
+Education didn’t have an effect on how people voted. I would expect educated people to oppose the ballot more, but it is not the case. 
+
+Recommendations:
+---------------
+To encourage people who would oppose the ballot to vote, we need first to target more Democrats, and people who have ideology 1, and avoid Republicans and people who have ideology -1
+Second, if means are possible, I would also suggest educating people, women particularly, about the benefits of the ballot in case they can’t see it right away. 
+It is important to be aggressive in those efforts because the model predicted only 30% to oppose the ballot in the testing set. 
